@@ -4,20 +4,24 @@ import java.util.HashMap;
 
 public class Solution {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 1, 2, 2, 3, 6};
-        topKFrequent(arr, 2);
+        int[] arr = {1, 1, 1, 8, 99, 2, 2, 6};
+        topKFrequent(arr, 22);
     }
 
-    static int[] topKFrequent(int[] nums, int k) {
+    static void topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> numFreq = new HashMap<Integer, Integer>();
-        int[] result = new int[5];
+        int[] result = new int[7];
         int count = 0;
-        for (int i : nums) {
-                numFreq.put(nums[i], i+1);
-                //++count;
+        for (int x = 0; x < nums.length; x++) {
+            if (!numFreq.containsKey(nums[x])) {
+                numFreq.put(nums[x], count);
+            } else {
+//                ++count;
+//                numFreq.put(num, count);
+            }
+            count++;
         }
-
         System.out.println(numFreq + "\n");
-        return result;
+        //return result;
     }
 }
