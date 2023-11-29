@@ -46,7 +46,7 @@ public class Solution {
         System.out.println(hashMap);
         /*
          * HashMaps are store entries in key-value pairs where the keys are unique
-         * Does allow null values for both keys and values
+         * DOES allow null values for both keys and values
          * Better performance relative to HashTables bc it's not synchronized
          * */
     }
