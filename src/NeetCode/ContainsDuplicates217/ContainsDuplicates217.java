@@ -1,4 +1,4 @@
-package NeetCode.containsDuplicates217;
+package NeetCode.ContainsDuplicates217;
 
 public class ContainsDuplicates217 {
 

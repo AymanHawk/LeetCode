@@ -1,4 +1,4 @@
-package NeetCode.groupAnagrams49;
+package NeetCode.GroupAnagrams49;
 
 import java.util.*;
 
