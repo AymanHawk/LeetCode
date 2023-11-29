@@ -7,7 +7,7 @@ public class Solution {
         int[] arr = {1, 1, 1, 8, 99, 2, 2, 6};
         topKFrequent(arr, 22);
     }
-
+//test commit
     static void topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> numFreq = new HashMap<Integer, Integer>();
         int[] result = new int[7];
