@@ -1,4 +1,4 @@
-package Easy;
+package NeetCode.ArraysAndHashing;
 
 
 
